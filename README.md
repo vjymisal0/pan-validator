@@ -5,13 +5,13 @@ Validate and parse Indian PAN (Permanent Account Number) card numbers - zero dep
 ## Install
 
 ```bash
-npm install pan-validator
+npm install @vijayishere/pan-validator
 ```
 
 ## Usage
 
 ```js
-import { isValidPan, parsePan } from 'pan-validator';
+import { isValidPan, parsePan } from '@vijayishere/pan-validator';
 
 isValidPan('AAAPL1234C'); // true
 isValidPan('not-a-pan');  // false
