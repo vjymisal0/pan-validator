@@ -1,0 +1,41 @@
+{
+  "name": "pan-validator",
+  "version": "1.0.0",
+  "description": "Validate and parse Indian PAN (Permanent Account Number) card numbers",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "pan",
+    "pan-card",
+    "india",
+    "validator",
+    "kyc",
+    "tax-id"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjymisal0/pan-validator.git"
+  },
+  "homepage": "https://github.com/vjymisal0/pan-validator#readme",
+  "bugs": {
+    "url": "https://github.com/vjymisal0/pan-validator/issues"
+  },
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
