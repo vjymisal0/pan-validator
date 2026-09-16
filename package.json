@@ -1,5 +1,5 @@
 {
-  "name": "@vijayishere/pan-validator",
+  "name": "pan-card-validator",
   "version": "1.0.0",
   "description": "Validate and parse Indian PAN (Permanent Account Number) card numbers",
   "type": "module",
