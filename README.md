@@ -63,3 +63,7 @@ This library validates the structure and the holder-category code (position 4), 
 ## License
 
 MIT
+
+## Limitations
+
+Validation is structural only. It cannot confirm that a PAN was issued or belongs to a person; use an authorized government verification channel for that.
