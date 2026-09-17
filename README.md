@@ -1,5 +1,10 @@
 # pan-validator
 
+## Module format
+
+This package is ESM-only. Use `import` syntax in Node.js projects with `type: module`. CommonJS applications can load it with `await import("pan-card-validator")`.
+
+
 Validate and parse Indian PAN (Permanent Account Number) card numbers - zero dependencies.
 
 ## Install
