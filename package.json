@@ -1,6 +1,6 @@
 {
   "name": "pan-card-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Validate and parse Indian PAN (Permanent Account Number) card numbers",
   "type": "module",
   "main": "./src/index.js",
@@ -12,7 +12,8 @@
     }
   },
   "files": [
-    "src"
+    "src",
+    "CHANGELOG.md"
   ],
   "scripts": {
     "test": "node --test test/*.test.js"
@@ -33,7 +34,7 @@
   "bugs": {
     "url": "https://github.com/vjymisal0/pan-validator/issues"
   },
-  "author": "",
+  "author": "Vijay Misal <misalvijay153@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=18"
